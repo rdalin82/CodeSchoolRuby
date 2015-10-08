@@ -1,0 +1,5 @@
+library = Library.new(GAMES)
+proc = Proc.new 
+library.each(&proc)
+
+# library.each { |game| puts "#{game.name} (#{game.system}) - #{game.year}" }
